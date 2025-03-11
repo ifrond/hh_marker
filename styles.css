@@ -1,0 +1,11 @@
+.hh-marker {
+    color: var(--marker-color, #ff0000);
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+    text-decoration: underline dotted;
+}
+
+.hh-marker:hover {
+    opacity: 0.8;
+}

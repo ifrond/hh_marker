@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HH Marker Settings</title>
+    <style>
+        body {
+            width: 250px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+        }
+        .settings-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="color"] {
+            width: 100%;
+        }
+        button {
+            width: 100%;
+            padding: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="settings-group">
+        <label for="markerColor">Marker Color:</label>
+        <input type="color" id="markerColor" value="#ff0000">
+    </div>
+    
+    <div class="settings-group">
+        <label for="markerText">Marker Text:</label>
+        <input type="text" id="markerText" value="(Отказ)">
+    </div>
+
+    <button id="saveSettings">Save Settings</button>
+    <button id="clearList">Clear Blocked List</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
